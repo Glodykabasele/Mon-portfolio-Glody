@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact - Glody</title>
+  <link rel="stylesheet" href="stylescontact.css" />
+</head>
+<body>
+  <header>
+    <h1>Contact</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="about.html">À propos</a></li>
+        <li><a href="skills.html">Compétences</a></li>
+        <li><a href="projects.html">Projets</a></li>
+        <li><a href="hobbies.html">Hobbies</a></li>
+        <li><a href="feedback.html">Avis</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="contact">
+      <h2>📬 Discutons ensemble</h2>
+      <p>Remplis le formulaire ci-dessous pour me contacter. Je te répondrai avec plaisir !</p>
+
+      <form id="contact-form">
+        <label for="name">Nom :</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message :</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Envoyer</button>
+        <div id="form-message"></div>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Glody - Tous droits réservés</p>
+  </footer>
+
+  <script src="scriptcontact.js"></script>
+</body>
+</html>

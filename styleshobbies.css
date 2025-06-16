@@ -1,0 +1,90 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+header {
+  background-color: #003566;
+  color: white;
+  text-align: center;
+  padding: 30px 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+nav li {
+  margin: 0 12px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ffc300;
+}
+
+.hobbies {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.hobbies h2 {
+  color: #003566;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.hobbies ul {
+  list-style: none;
+  padding: 0;
+}
+
+.hobbies li {
+  background-color: #e7f1ff;
+  border-left: 5px solid #0077b6;
+  padding: 12px 20px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.hobbies li:hover {
+  background-color: #d0e8ff;
+}
+
+/* Section fun-fact si tu veux en ajouter une */
+.fun-fact {
+  max-width: 700px;
+  margin: 30px auto 60px auto;
+  text-align: center;
+  background-color: #fff3cd;
+  color: #664d03;
+  border-left: 5px solid #ffc107;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+  background-color: #003566;
+  color: white;
+  padding: 20px 0;
+  margin-top: 60px;
+}

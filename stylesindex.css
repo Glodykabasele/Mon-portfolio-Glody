@@ -1,0 +1,127 @@
+/* Base */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+/* En-tête */
+header {
+  background-color: #003566;
+  color: white;
+  text-align: center;
+  padding: 30px 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ffc300;
+}
+
+/* Section d’introduction */
+.intro {
+  max-width: 800px;
+  margin: 40px auto;
+  text-align: center;
+  background-color: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.intro h2 {
+  color: #003566;
+  margin-bottom: 20px;
+}
+
+/* Aperçu des projets / compétences */
+.aperçu {
+  max-width: 1000px;
+  margin: 60px auto;
+  text-align: center;
+}
+
+.aperçu h2 {
+  color: #003566;
+  margin-bottom: 30px;
+}
+
+.cartes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.cartes a {
+  background-color: #fff;
+  padding: 25px 30px;
+  width: 250px;
+  text-decoration: none;
+  color: #003566;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, background-color 0.3s;
+}
+
+.cartes a:hover {
+  background-color: #e0f0ff;
+  transform: translateY(-5px);
+}
+
+/* Pied de page */
+footer {
+  text-align: center;
+  background-color: #003566;
+  color: white;
+  padding: 20px 0;
+  margin-top: 80px;
+}
+h1 {
+  font-size: 2.8rem;
+  color: #003566;
+  text-align: center;
+  margin-bottom: 20px;
+}
+h1 {
+  font-size: 3rem;
+  color: #003566;
+  text-align: center;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+  border-bottom: 3px solid #ffc300;
+  display: inline-block;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+h1 {
+  opacity: 0;
+  transform: translateY(-20px);
+  animation: apparition 1s ease-out forwards;
+}
+
+@keyframes apparition {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,94 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 20px;
+  margin: 0;
+}
+
+header {
+  background-color: #003566;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ffc300;
+}
+
+.skills {
+  max-width: 700px;
+  margin: 40px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.skills h2 {
+  text-align: center;
+  color: #003566;
+  margin-bottom: 20px;
+}
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills li {
+  padding: 12px 15px;
+  margin-bottom: 10px;
+  background-color: #e0eafc;
+  border-left: 5px solid #003566;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.3s;
+}
+
+.skills li:hover {
+  background-color: #cfe2ff;
+  transform: scale(1.02);
+}
+
+.focus {
+  max-width: 700px;
+  margin: 40px auto;
+  background-color: #fff8e1;
+  padding: 25px;
+  border-left: 5px solid #ffc107;
+  border-radius: 10px;
+}
+
+.focus h3 {
+  color: #d48b00;
+  margin-bottom: 15px;
+}
+
+footer {
+  text-align: center;
+  background-color: #003566;
+  color: white;
+  padding: 20px 0;
+  margin-top: 60px;
+}
